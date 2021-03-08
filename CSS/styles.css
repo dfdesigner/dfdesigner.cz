@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 08 2021 13:03:39 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 08 2021 13:19:13 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2590,12 +2590,12 @@
      }
    
      .section.portfolio_page {
-       width: 100%;
-       height: 98vh;
-       -webkit-box-pack: justify;
-       -webkit-justify-content: space-between;
-       -ms-flex-pack: justify;
-       justify-content: space-between;
+       width: 100vw;
+       height: 100vh;
+       -webkit-box-pack: center;
+       -webkit-justify-content: center;
+       -ms-flex-pack: center;
+       justify-content: center;
        -webkit-box-align: center;
        -webkit-align-items: center;
        -ms-flex-align: center;
