@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 08 2021 13:56:04 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 08 2021 14:02:17 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -159,7 +159,7 @@
    }
    
    .section.portfolio_page {
-     position: fixed;
+     position: static;
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
