@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 08 2021 14:02:17 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 08 2021 14:07:26 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -176,10 +176,10 @@
      -webkit-justify-content: space-between;
      -ms-flex-pack: justify;
      justify-content: space-between;
-     -webkit-box-align: stretch;
-     -webkit-align-items: stretch;
-     -ms-flex-align: stretch;
-     align-items: stretch;
+     -webkit-box-align: center;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
      -o-object-fit: fill;
      object-fit: fill;
    }
@@ -2350,7 +2350,7 @@
      position: fixed;
      z-index: 999;
      display: none;
-     width: 100vw;
+     width: 100%;
      height: 100vh;
      background-color: #fff;
      opacity: 0;
