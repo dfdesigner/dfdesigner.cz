@@ -1,4 +1,4 @@
-/* Generated on: Sun Mar 14 2021 19:44:19 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Mar 14 2021 21:11:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -494,6 +494,7 @@
      z-index: 5;
      margin-top: 30px;
      font-family: Ilisarniq, sans-serif;
+     color: #eee;
      font-size: 27px;
      line-height: 35px;
      font-weight: 400;
@@ -648,6 +649,7 @@
      -webkit-align-items: center;
      -ms-flex-align: center;
      align-items: center;
+     color: #eee;
      cursor: none;
    }
    
@@ -2707,6 +2709,10 @@
      line-height: 57px;
    }
    
+   .body-7 {
+     color: #5627db;
+   }
+   
    @media screen and (min-width: 1440px) {
      body {
        cursor: default;
@@ -2893,6 +2899,8 @@
    
      .cursor.small_screen {
        display: block;
+       width: 110px;
+       height: 110px;
      }
    
      .cursor-wrapper {
@@ -3192,8 +3200,8 @@
      .button-more {
        width: 250px;
        height: 65px;
-       padding-top: 22px;
-       font-size: 22px;
+       padding-top: 20px;
+       font-size: 21px;
        cursor: none;
      }
    
@@ -3677,6 +3685,20 @@
        height: 75px;
      }
    
+     .cursor.big_screen {
+       display: block;
+     }
+   
+     .cursor.small_screen {
+       display: none;
+       width: 110px;
+       height: 110px;
+     }
+   
+     .menu-selection {
+       display: none;
+     }
+   
      .portfolio._1 {
        display: -ms-grid;
        display: grid;
@@ -3793,8 +3815,8 @@
      .button {
        width: 270px;
        height: 70px;
-       padding-top: 22px;
-       font-size: 22px;
+       padding-top: 20px;
+       font-size: 21px;
      }
    
      .button.white_bg {
@@ -3802,6 +3824,11 @@
        height: 70px;
        padding-top: 22px;
        font-size: 22px;
+     }
+   
+     .button-more {
+       width: 270px;
+       height: 70px;
      }
    
      .button-more.white_bg {
@@ -4109,6 +4136,7 @@
    
      .menu-selection {
        display: none;
+       color: #eee;
        cursor: auto;
      }
    
@@ -4453,6 +4481,11 @@
        font-size: 22px;
        line-height: 26px;
        font-weight: 400;
+     }
+   
+     .menu-box-copyright {
+       padding-top: 10px;
+       padding-bottom: 10px;
      }
    
      .button-slide-up {
@@ -5239,6 +5272,9 @@
      }
    
      .menu-text_copyright {
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: #eee;
        font-size: 11px;
      }
    
@@ -6224,6 +6260,11 @@
        margin-top: -5px;
        font-size: 18px;
        line-height: 22px;
+     }
+   
+     .menu-text_copyright {
+       padding-top: 7px;
+       padding-bottom: 7px;
      }
    
      .button-slide-up {
