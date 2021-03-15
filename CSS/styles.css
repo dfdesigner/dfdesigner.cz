@@ -1,4 +1,4 @@
-/* Generated on: Sun Mar 14 2021 21:11:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 15 2021 08:17:59 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1430,14 +1430,14 @@
      z-index: auto;
      width: 250px;
      height: 65px;
-     padding-top: 22px;
+     padding-top: 20px;
      border-style: solid;
      border-width: 1px;
      border-color: #eee;
      border-radius: 50px;
      background-color: transparent;
      color: #eee;
-     font-size: 22px;
+     font-size: 21px;
      text-align: center;
      cursor: default;
    }
@@ -1445,11 +1445,11 @@
    .button.white_bg {
      width: 250px;
      height: 65px;
-     padding-top: 22px;
+     padding-top: 20px;
      border-width: 1.5px;
      border-color: #262626;
      color: #262626;
-     font-size: 22px;
+     font-size: 21px;
      cursor: default;
    }
    
@@ -1462,7 +1462,7 @@
      display: block;
      width: 250px;
      height: 65px;
-     padding-top: 22px;
+     padding-top: 20px;
      border-style: solid;
      border-width: 1px;
      border-color: #eee;
@@ -1472,7 +1472,7 @@
      -webkit-transition: opacity 200ms ease;
      transition: opacity 200ms ease;
      color: #131313;
-     font-size: 22px;
+     font-size: 21px;
      text-align: center;
      cursor: default;
    }
@@ -1493,10 +1493,10 @@
    .button-more.white_bg {
      width: 250px;
      height: 65px;
-     padding-top: 22px;
+     padding-top: 20px;
      background-color: #262626;
      color: #f2e7df;
-     font-size: 22px;
+     font-size: 21px;
      cursor: default;
    }
    
@@ -3815,8 +3815,8 @@
      .button {
        width: 270px;
        height: 70px;
-       padding-top: 20px;
-       font-size: 21px;
+       padding-top: 22px;
+       font-size: 22px;
      }
    
      .button.white_bg {
@@ -3829,6 +3829,8 @@
      .button-more {
        width: 270px;
        height: 70px;
+       padding-top: 22px;
+       font-size: 22px;
      }
    
      .button-more.white_bg {
