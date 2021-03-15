@@ -1445,11 +1445,11 @@
    .button.white_bg {
      width: 250px;
      height: 65px;
-     padding-top: 20px;
+     padding-top: 22px;
      border-width: 1.5px;
      border-color: #262626;
      color: #262626;
-     font-size: 21px;
+     font-size: 22px;
      cursor: default;
    }
    
@@ -1493,10 +1493,10 @@
    .button-more.white_bg {
      width: 250px;
      height: 65px;
-     padding-top: 20px;
+     padding-top: 22px;
      background-color: #262626;
      color: #f2e7df;
-     font-size: 21px;
+     font-size: 22px;
      cursor: default;
    }
    
