@@ -1,4 +1,4 @@
-/* Generated on: Tue Mar 16 2021 19:05:43 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Mar 20 2021 17:32:45 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -723,15 +723,24 @@
    }
    
    .menu-selection__wrapper {
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     width: 280px;
      margin-top: 20px;
+     -webkit-box-pack: justify;
+     -webkit-justify-content: space-between;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
    }
    
    .menu-selection__link {
      position: relative;
-     width: 50px;
-     height: 50px;
-     margin-right: 7px;
-     margin-left: 7px;
+     width: 45px;
+     height: 45px;
+     margin-right: 0px;
+     margin-left: 0px;
      cursor: default;
    }
    
@@ -2951,13 +2960,22 @@
      }
    
      .menu-selection__wrapper {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+       width: 300px;
        height: 60px;
+       -webkit-box-pack: justify;
+       -webkit-justify-content: space-between;
+       -ms-flex-pack: justify;
+       justify-content: space-between;
      }
    
      .menu-selection__link {
-       width: 55px;
-       margin-right: 10px;
-       margin-left: 10px;
+       width: 50px;
+       margin-right: 0px;
+       margin-left: 0px;
        cursor: none;
      }
    
@@ -3699,6 +3717,25 @@
        display: none;
      }
    
+     .menu-selection__wrapper {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+       width: 300px;
+       height: 50px;
+       -webkit-box-pack: justify;
+       -webkit-justify-content: space-between;
+       -ms-flex-pack: justify;
+       justify-content: space-between;
+     }
+   
+     .menu-selection__link {
+       width: 50px;
+       margin-right: 0px;
+       margin-left: 0px;
+     }
+   
      .portfolio._1 {
        display: -ms-grid;
        display: grid;
@@ -4190,7 +4227,9 @@
      }
    
      .menu-selection__link {
-       margin-right: 7px;
+       width: 40px;
+       height: 40px;
+       margin-right: 0px;
        cursor: auto;
      }
    
@@ -4709,8 +4748,16 @@
      }
    
      .menu-selection_wrapper-mobile {
-       display: block;
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+       width: 240px;
        margin-top: 20px;
+       -webkit-box-pack: justify;
+       -webkit-justify-content: space-between;
+       -ms-flex-pack: justify;
+       justify-content: space-between;
      }
    
      .submit-button_item {
@@ -5027,8 +5074,8 @@
      }
    
      .menu-selection__link {
-       width: 40px;
-       height: 40px;
+       width: 35px;
+       height: 35px;
        margin-right: 0px;
        margin-left: 0px;
      }
@@ -5682,7 +5729,7 @@
        display: -webkit-flex;
        display: -ms-flexbox;
        display: flex;
-       width: 250px;
+       width: 230px;
        margin-top: 20px;
        -webkit-box-pack: justify;
        -webkit-justify-content: space-between;
@@ -5986,12 +6033,15 @@
      }
    
      .menu-selection {
-       display: none;
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
        height: 100vh;
      }
    
      .menu-selection__option {
-       margin-bottom: 10px;
+       margin-bottom: 7px;
        font-size: 26px;
      }
    
@@ -6036,6 +6086,8 @@
      }
    
      .menu-selection__link {
+       width: 32px;
+       height: 32px;
        margin-right: 0px;
        margin-left: 0px;
      }
@@ -6486,7 +6538,7 @@
        display: -webkit-flex;
        display: -ms-flexbox;
        display: flex;
-       width: 230px;
+       width: 200px;
        -webkit-box-pack: justify;
        -webkit-justify-content: space-between;
        -ms-flex-pack: justify;
