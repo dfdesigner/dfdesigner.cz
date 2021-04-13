@@ -1,4 +1,4 @@
-/* Generated on: Sat Mar 20 2021 17:32:45 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Apr 01 2021 13:11:15 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -38,10 +38,10 @@
      width: auto;
      margin: 20px auto 10px;
      color: #eee;
-     font-size: 105px;
-     line-height: 120px;
+     font-size: 90px;
+     line-height: 105px;
      font-weight: 900;
-     text-align: left;
+     text-align: center;
      text-shadow: none;
    }
    
@@ -49,17 +49,17 @@
      margin-top: 20px;
      margin-bottom: 10px;
      color: #eee;
-     font-size: 65px;
-     line-height: 80px;
+     font-size: 60px;
+     line-height: 75px;
      font-weight: 700;
    }
    
    h3 {
      margin-top: 20px;
      margin-bottom: 10px;
-     color: #eee;
-     font-size: 65px;
-     line-height: 75px;
+     color: #262626;
+     font-size: 60px;
+     line-height: 70px;
      font-weight: 700;
    }
    
@@ -215,6 +215,10 @@
      padding-bottom: 0px;
    }
    
+   .section.lightbox {
+     display: none;
+   }
+   
    .container1620 {
      position: relative;
      display: block;
@@ -352,6 +356,10 @@
      position: fixed;
      z-index: 45;
      margin-bottom: 60px;
+   }
+   
+   .container1170.price_list {
+     text-align: center;
    }
    
    .image {
@@ -979,7 +987,6 @@
      display: -ms-flexbox;
      display: flex;
      width: 490px;
-     margin-left: 0px;
      -webkit-box-orient: vertical;
      -webkit-box-direction: normal;
      -webkit-flex-direction: column;
@@ -1001,7 +1008,7 @@
      padding-left: 0px;
      font-family: Ilisarniq, sans-serif;
      color: #eee;
-     font-size: 20px;
+     font-size: 21px;
      line-height: 26px;
    }
    
@@ -1029,26 +1036,20 @@
      display: -ms-flexbox;
      display: flex;
      width: 550px;
-     margin-right: 0px;
+     margin-top: -15px;
      -webkit-box-orient: vertical;
      -webkit-box-direction: normal;
      -webkit-flex-direction: column;
      -ms-flex-direction: column;
      flex-direction: column;
-     -webkit-box-pack: center;
-     -webkit-justify-content: center;
-     -ms-flex-pack: center;
-     justify-content: center;
-   }
-   
-   .webdesign-description {
-     margin-top: 10px;
-     margin-left: 0px;
-     font-family: Ilisarniq, sans-serif;
-     color: #eee;
-     font-size: 20px;
-     line-height: 26px;
-     font-weight: 400;
+     -webkit-box-pack: start;
+     -webkit-justify-content: flex-start;
+     -ms-flex-pack: start;
+     justify-content: flex-start;
+     -webkit-box-align: end;
+     -webkit-align-items: flex-end;
+     -ms-flex-align: end;
+     align-items: flex-end;
      text-align: right;
    }
    
@@ -1070,16 +1071,16 @@
      display: -ms-flexbox;
      display: flex;
      width: 520px;
-     margin-left: 0%;
+     margin-top: -5px;
      -webkit-box-orient: vertical;
      -webkit-box-direction: normal;
      -webkit-flex-direction: column;
      -ms-flex-direction: column;
      flex-direction: column;
-     -webkit-box-pack: center;
-     -webkit-justify-content: center;
-     -ms-flex-pack: center;
-     justify-content: center;
+     -webkit-box-pack: start;
+     -webkit-justify-content: flex-start;
+     -ms-flex-pack: start;
+     justify-content: flex-start;
    }
    
    .graphicdesign-item {
@@ -1171,35 +1172,6 @@
      margin-top: 40px;
    }
    
-   .nametext {
-     margin-bottom: 7px;
-     font-family: Ilisarniq, sans-serif;
-     color: #f9d8d7;
-     font-size: 19px;
-     font-weight: 400;
-     text-align: center;
-     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
-   }
-   
-   .nametext.white {
-     color: #eee;
-   }
-   
-   .messagetext {
-     margin-bottom: 7px;
-     font-family: Ilisarniq, sans-serif;
-     color: #f9d8d7;
-     font-size: 19px;
-     font-weight: 400;
-     text-align: center;
-     letter-spacing: 0px;
-     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
-   }
-   
-   .messagetext.white {
-     color: #eee;
-   }
-   
    .text-field {
      margin-top: 10px;
      border-radius: 3px;
@@ -1226,20 +1198,6 @@
    
    .form-block-email {
      width: 100%;
-   }
-   
-   .emailtext {
-     margin-bottom: 7px;
-     font-family: Ilisarniq, sans-serif;
-     color: #f9d8d7;
-     font-size: 19px;
-     font-weight: 400;
-     text-align: center;
-     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
-   }
-   
-   .emailtext.white {
-     color: #eee;
    }
    
    .email-field {
@@ -1370,37 +1328,11 @@
      cursor: default;
    }
    
-   .footer.contact {
-     margin-top: 20px;
-   }
-   
    .footer-text {
      font-family: Ilisarniq, sans-serif;
      color: rgba(238, 238, 238, 0.8);
      font-size: 13px;
      font-weight: 300;
-     text-align: center;
-   }
-   
-   .contact_number-text {
-     font-family: Ilisarniq, sans-serif;
-     color: #fdf1f0;
-     font-size: 19px;
-     line-height: 22px;
-     text-decoration: underline;
-     cursor: default;
-   }
-   
-   .contact_email-link {
-     font-family: Ilisarniq, sans-serif;
-     color: #fdf1f0;
-     font-size: 19px;
-     line-height: 22px;
-     text-decoration: underline;
-     cursor: default;
-   }
-   
-   .heading-13 {
      text-align: center;
    }
    
@@ -1432,6 +1364,10 @@
    .portfolio-more.portfolio {
      margin-top: 35px;
      margin-bottom: 100px;
+   }
+   
+   .portfolio-more._2 {
+     margin-bottom: 5px;
    }
    
    .button {
@@ -1909,10 +1845,6 @@
      background-color: #d4d4d4;
    }
    
-   .body-6 {
-     background-color: #131313;
-   }
-   
    .section-portfolio_grid {
      position: relative;
      z-index: 5;
@@ -1937,11 +1869,6 @@
      margin-top: 5px;
    }
    
-   .white-line.blue {
-     overflow: visible;
-     background-color: #1d82da;
-   }
-   
    .white-line.purple {
      overflow: visible;
      background-color: #7254ed;
@@ -1960,10 +1887,6 @@
    .image-hidden_wrapper {
      width: 100%;
      height: 100vh;
-   }
-   
-   .branding_image {
-     opacity: 0;
    }
    
    .link-branding {
@@ -2253,14 +2176,6 @@
      grid-template-rows: auto auto auto;
    }
    
-   .heading_home {
-     font-family: Ilisarniq, sans-serif;
-     font-size: 90px;
-     line-height: 105px;
-     font-weight: 900;
-     text-align: center;
-   }
-   
    .form {
      width: 700px;
      margin-right: auto;
@@ -2270,12 +2185,6 @@
    .background-holder {
      position: relative;
      opacity: 0;
-   }
-   
-   .heading_price {
-     color: #262626;
-     font-size: 60px;
-     line-height: 65px;
    }
    
    .my_overlay {
@@ -2308,10 +2217,6 @@
      -webkit-justify-content: space-between;
      -ms-flex-pack: justify;
      justify-content: space-between;
-   }
-   
-   .headling-h2_right-lined {
-     text-align: right;
    }
    
    .menubar-mobile {
@@ -2369,10 +2274,6 @@
    
    .submit-button_item-mobile {
      display: none;
-   }
-   
-   .headingh6_white {
-     font-size: 32px;
    }
    
    .container-mobile {
@@ -2622,12 +2523,6 @@
      background-color: #f4b8b4;
    }
    
-   .text-block-2 {
-     color: #270e6f;
-     font-size: 18px;
-     text-align: center;
-   }
-   
    .form_text-error {
      color: #170648;
      font-size: 20px;
@@ -2704,27 +2599,61 @@
      align-items: stretch;
    }
    
-   .section-2 {
-     display: none;
+   .service_description {
+     color: #eee;
+     font-size: 21px;
+     line-height: 27px;
    }
    
-   .heading-14 {
-     font-size: 60px;
-     line-height: 70px;
+   .service_description.right_align {
+     text-align: right;
    }
    
-   .heading-15 {
-     font-size: 50px;
-     line-height: 57px;
+   .form_text {
+     color: #f9d8d7;
+     font-size: 19px;
+     font-weight: 400;
+     text-align: center;
    }
    
-   .body-7 {
-     color: #5627db;
+   .form_text.white {
+     color: #eee;
+   }
+   
+   .contact_link {
+     color: #f9d8d7;
+     font-size: 21px;
+     line-height: 23px;
+   }
+   
+   .contact_link.white {
+     color: #eee;
+   }
+   
+   .headingh7 {
+     font-size: 34px;
+   }
+   
+   .portfolio-text {
+     margin-top: 20px;
+     margin-bottom: 10px;
+     font-size: 45px;
+     font-weight: 700;
+   }
+   
+   .heading-3 {
+     color: #eee;
    }
    
    @media screen and (min-width: 1440px) {
      body {
        cursor: default;
+     }
+   
+     h1 {
+       font-size: 120px;
+       line-height: 140px;
+       text-align: center;
      }
    
      h2 {
@@ -2733,6 +2662,7 @@
      }
    
      h3 {
+       color: #262626;
        font-size: 65px;
        line-height: 75px;
      }
@@ -2850,6 +2780,10 @@
      .container1170.about-me {
        margin-right: auto;
        margin-left: auto;
+     }
+   
+     .container1170.price_list {
+       text-align: center;
      }
    
      .hero-logo {
@@ -3056,13 +2990,11 @@
    
      .webdesign-info {
        width: 690px;
+       -webkit-box-align: end;
+       -webkit-align-items: flex-end;
+       -ms-flex-align: end;
+       align-items: flex-end;
        line-height: 20px;
-     }
-   
-     .webdesign-description {
-       margin-top: 10px;
-       font-size: 23px;
-       line-height: 28px;
      }
    
      .graphicdesign-info {
@@ -3126,21 +3058,9 @@
        margin-top: 40px;
      }
    
-     .nametext {
-       font-size: 20px;
-     }
-   
-     .messagetext {
-       font-size: 20px;
-     }
-   
      .text-field {
        font-size: 20px;
        line-height: 25px;
-     }
-   
-     .emailtext {
-       font-size: 20px;
      }
    
      .email-field {
@@ -3182,21 +3102,13 @@
        cursor: none;
      }
    
-     .contact_number-text {
-       font-size: 19px;
-       line-height: 22px;
-       cursor: none;
-     }
-   
-     .contact_email-link {
-       font-size: 19px;
-       line-height: 22px;
-       cursor: none;
-     }
-   
      .portfolio-more.portfolio {
        margin-top: 40px;
        margin-bottom: 90px;
+     }
+   
+     .portfolio-more._2 {
+       margin-bottom: 10px;
      }
    
      .button {
@@ -3366,26 +3278,8 @@
        line-height: 25px;
      }
    
-     .heading_home {
-       font-size: 120px;
-       line-height: 140px;
-     }
-   
      .form {
        width: 800px;
-     }
-   
-     .heading_price {
-       font-size: 60px;
-       line-height: 65px;
-     }
-   
-     .about-me_heading {
-       font-size: 65px;
-     }
-   
-     .headingh6_white {
-       font-size: 36px;
      }
    
      .image_cross-mark {
@@ -3460,10 +3354,6 @@
        width: 1620%;
        padding-right: 0px;
        padding-left: 0px;
-     }
-   
-     .photo-strip-item.active {
-       opacity: 1;
      }
    
      .photo-strip-row {
@@ -3546,13 +3436,6 @@
        grid-template-rows: auto auto auto;
      }
    
-     .text-block {
-       display: block;
-       color: #270e6f;
-       font-size: 22px;
-       font-weight: 400;
-     }
-   
      .error-message {
        width: 800px;
        margin-top: 15px;
@@ -3565,10 +3448,6 @@
        font-size: 22px;
        line-height: 24px;
        text-align: center;
-     }
-   
-     .text-block-2 {
-       font-size: 20px;
      }
    
      .form_text-error {
@@ -3608,36 +3487,75 @@
        opacity: 0;
      }
    
-     .section-2 {
-       display: none;
+     .service_description {
+       color: #eee;
+       font-size: 23px;
+       line-height: 30px;
      }
    
-     .heading-16 {
-       font-size: 60px;
+     .service_description.right_align {
+       text-align: right;
      }
    
-     .heading-17 {
+     .form_text {
+       color: #f9d8d7;
+       font-size: 20px;
+       font-weight: 400;
+       text-align: center;
+     }
+   
+     .form_text.white {
+       color: #eee;
+     }
+   
+     .contact_link {
+       color: #f9d8d7;
+       font-size: 22px;
+       line-height: 24px;
+     }
+   
+     .contact_link.white {
+       color: #eee;
+     }
+   
+     .headingh7 {
+       font-size: 38px;
+       line-height: 20px;
+     }
+   
+     .portfolio-text {
+       margin-top: 20px;
+       margin-bottom: 10px;
        font-size: 55px;
+       font-weight: 700;
      }
    
-     .heading-18 {
-       font-size: 60px;
+     .heading-2 {
+       color: #262626;
      }
    }
    
    @media screen and (min-width: 1920px) {
+     h1 {
+       font-size: 137px;
+       line-height: 160px;
+       text-align: center;
+     }
+   
      h2 {
        font-size: 90px;
        line-height: 95px;
      }
    
      h3 {
+       color: #262626;
        font-size: 80px;
        line-height: 90px;
      }
    
      h4 {
        font-size: 70px;
+       line-height: 75px;
      }
    
      h5 {
@@ -3646,6 +3564,14 @@
    
      h6 {
        font-size: 34px;
+     }
+   
+     .section {
+       display: block;
+     }
+   
+     .section.lightbox {
+       display: none;
      }
    
      .container1620.portfolio_menu._1 {
@@ -3660,6 +3586,7 @@
        width: 1620px;
        margin-right: auto;
        margin-left: auto;
+       color: #262626;
      }
    
      .container1170.hero-container {
@@ -3687,6 +3614,10 @@
      .container1170.about-me {
        margin-right: auto;
        margin-left: auto;
+     }
+   
+     .container1170.price_list {
+       text-align: center;
      }
    
      .hero_logo-image {
@@ -3794,13 +3725,11 @@
      }
    
      .webdesign-info {
-       width: 800px;
-     }
-   
-     .webdesign-description {
-       margin-top: 20px;
-       font-size: 27px;
-       line-height: 33px;
+       width: 810px;
+       -webkit-box-align: end;
+       -webkit-align-items: flex-end;
+       -ms-flex-align: end;
+       align-items: flex-end;
      }
    
      .graphicdesign-info {
@@ -3835,18 +3764,12 @@
        right: 184px;
      }
    
-     .contact_number-text {
-       font-size: 22px;
-       line-height: 26px;
-     }
-   
-     .contact_email-link {
-       font-size: 22px;
-       line-height: 26px;
-     }
-   
      .portfolio-more.portfolio {
        margin-top: 50px;
+     }
+   
+     .portfolio-more._2 {
+       margin-bottom: 30px;
      }
    
      .button {
@@ -3957,42 +3880,67 @@
        font-size: 25px;
      }
    
-     .heading_home {
-       font-size: 137px;
-       line-height: 160px;
-     }
-   
-     .heading_price {
-       font-size: 70px;
-       line-height: 75px;
-     }
-   
-     .about-me_heading {
-       font-size: 80px;
-     }
-   
-     .headingh6_white {
-       font-size: 40px;
+     .background-video {
+       width: 245px;
+       -o-object-fit: cover;
+       object-fit: cover;
      }
    
      .contact_spacing_div {
        margin-top: 35px;
      }
    
-     .heading-16 {
-       font-size: 70px;
+     .service_description {
+       color: #eee;
+       font-size: 27px;
+       line-height: 33px;
      }
    
-     .heading-17 {
-       font-size: 60px;
+     .service_description.right_align {
+       text-align: right;
      }
    
-     .heading-18 {
-       font-size: 70px;
+     .form_text {
+       color: #f9d8d7;
+       font-size: 20px;
+       line-height: 20px;
+       font-weight: 400;
+       text-align: center;
+     }
+   
+     .form_text.white {
+       color: #eee;
+     }
+   
+     .contact_link {
+       color: #f9d8d7;
+       font-size: 22px;
+       line-height: 26px;
+     }
+   
+     .contact_link.white {
+       color: #eee;
+     }
+   
+     .headingh7 {
+       font-size: 40px;
+       line-height: 20px;
+     }
+   
+     .portfolio-text {
+       margin-top: 20px;
+       margin-bottom: 10px;
+       font-size: 80px;
+       font-weight: 700;
      }
    }
    
    @media screen and (max-width: 991px) {
+     h1 {
+       font-size: 65px;
+       line-height: 75px;
+     }
+   
      h2 {
        font-size: 60px;
        text-align: center;
@@ -4354,14 +4302,10 @@
    
      .webdesign-info {
        width: 100%;
-     }
-   
-     .webdesign-description {
-       margin-top: 0px;
-       margin-left: 0px;
-       font-size: 20px;
-       line-height: 28px;
-       text-align: center;
+       -webkit-box-align: center;
+       -webkit-align-items: center;
+       -ms-flex-align: center;
+       align-items: center;
      }
    
      .graphicdesign-services {
@@ -4430,20 +4374,8 @@
        margin-top: 40px;
      }
    
-     .nametext {
-       font-weight: 300;
-     }
-   
-     .messagetext {
-       font-weight: 300;
-     }
-   
      .text-field {
        line-height: 26px;
-     }
-   
-     .emailtext {
-       font-weight: 300;
      }
    
      .email-field {
@@ -4473,6 +4405,11 @@
    
      .social-networks_item {
        cursor: auto;
+     }
+   
+     .footer {
+       height: 45px;
+       padding-top: 13px;
      }
    
      .portfolio-more._2 {
@@ -4530,6 +4467,7 @@
      }
    
      .button-slide-up {
+       bottom: 70px;
        z-index: 10;
        background-color: #eee;
        cursor: auto;
@@ -4693,26 +4631,8 @@
        grid-row-gap: 30px;
      }
    
-     .heading_home {
-       width: 91vw;
-       font-size: 65px;
-       line-height: 75px;
-     }
-   
      .form {
        width: 70vw;
-     }
-   
-     .heading_price {
-       font-size: 50px;
-     }
-   
-     .headling-h2_right-lined {
-       text-align: center;
-     }
-   
-     .about-me_heading {
-       font-size: 55px;
      }
    
      .menu-background_sections {
@@ -4781,11 +4701,6 @@
    
      .submit-button-item {
        display: none;
-     }
-   
-     .headingh6_white {
-       height: auto;
-       line-height: 35px;
      }
    
      .image_cross-mark {
@@ -4861,9 +4776,41 @@
        left: -28px;
        width: 62vw;
      }
+   
+     .service_description {
+       font-size: 20px;
+       line-height: 27px;
+       text-align: center;
+     }
+   
+     .service_description.right_align {
+       text-align: center;
+     }
+   
+     .form_text {
+       color: #f9d8d7;
+     }
+   
+     .contact_link {
+       font-size: 21px;
+     }
+   
+     .headingh7 {
+       line-height: 20px;
+     }
+   
+     .portfolio-text {
+       font-size: 55px;
+       line-height: 60px;
+     }
    }
    
    @media screen and (max-width: 767px) {
+     h1 {
+       font-size: 46px;
+       line-height: 58px;
+     }
+   
      h2 {
        font-size: 50px;
        line-height: 60px;
@@ -4888,6 +4835,7 @@
    
      h6 {
        margin-bottom: 30px;
+       color: #a99df6;
        font-size: 28px;
        line-height: 33px;
      }
@@ -5165,14 +5113,6 @@
        margin-right: 0px;
      }
    
-     .webdesign-description {
-       margin-top: 0px;
-       margin-left: 0px;
-       font-size: 18px;
-       line-height: 26px;
-       text-align: center;
-     }
-   
      .graphicdesign-item {
        width: 49vw;
        margin-left: 0px;
@@ -5216,31 +5156,9 @@
        margin-top: 20px;
      }
    
-     .nametext {
-       font-family: Ilisarniq, sans-serif;
-       color: #f9d8d7;
-       font-size: 18px;
-       font-weight: 300;
-       text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
-     }
-   
-     .messagetext {
-       font-family: Ilisarniq, sans-serif;
-       font-size: 18px;
-       font-weight: 300;
-       text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
-     }
-   
      .text-field {
        font-size: 18px;
        line-height: 22px;
-     }
-   
-     .emailtext {
-       font-family: Ilisarniq, sans-serif;
-       font-size: 18px;
-       font-weight: 300;
-       text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
      }
    
      .email-field {
@@ -5262,19 +5180,14 @@
      }
    
      .footer {
+       height: 40px;
+       padding-top: 10px;
+       padding-bottom: 0px;
        background-color: rgba(19, 19, 19, 0.5);
      }
    
      .footer-text {
        font-size: 12px;
-     }
-   
-     .contact_number-text {
-       font-size: 18px;
-     }
-   
-     .contact_email-link {
-       font-size: 18px;
      }
    
      .portfolio-more {
@@ -5329,7 +5242,7 @@
    
      .button-slide-up {
        right: -1%;
-       bottom: 73px;
+       bottom: 66px;
        z-index: 10;
        display: -webkit-box;
        display: -webkit-flex;
@@ -5551,29 +5464,12 @@
        margin-top: 20px;
      }
    
-     .heading_home {
-       font-size: 46px;
-       line-height: 58px;
-     }
-   
      .form {
        width: 80vw;
      }
    
-     .heading_price {
-       font-size: 48px;
-     }
-   
      .portfolio_menu-box {
        display: block;
-     }
-   
-     .headling-h2_right-lined {
-       text-align: center;
-     }
-   
-     .about-me_heading {
-       font-size: 50px;
      }
    
      .menubar-mobile {
@@ -5591,14 +5487,12 @@
      .fake-button-mobile {
        z-index: 80;
        display: none;
+       margin-top: 15px;
+       margin-right: 15px;
        border-style: solid;
        border-width: 0px;
        border-color: #eee;
        border-radius: 50px;
-     }
-   
-     .menu_animation-mobile {
-       padding: 3px;
      }
    
      .menu-background_sections {
@@ -5900,9 +5794,34 @@
        bottom: -6px;
        width: 73vw;
      }
+   
+     .service_description {
+       font-size: 18px;
+       line-height: 26px;
+     }
+   
+     .form_text {
+       color: #f9d8d7;
+       font-size: 18px;
+     }
+   
+     .headingh7 {
+       color: #eee;
+       font-size: 30px;
+     }
+   
+     .portfolio-text {
+       font-size: 28px;
+       line-height: 31px;
+     }
    }
    
    @media screen and (max-width: 479px) {
+     h1 {
+       font-size: 35px;
+       line-height: 41px;
+     }
+   
      h2 {
        font-size: 35px;
        line-height: 42px;
@@ -5911,7 +5830,6 @@
      h3 {
        font-size: 35px;
        line-height: 40px;
-       text-align: center;
      }
    
      h4 {
@@ -5954,6 +5872,10 @@
        display: none;
      }
    
+     .section.price-list {
+       text-align: left;
+     }
+   
      .container1620.portfolio_menu._1 {
        margin-top: 27vh;
      }
@@ -5990,6 +5912,10 @@
      .container1170.about-me {
        padding-right: 20px;
        padding-left: 20px;
+     }
+   
+     .container1170.price_list {
+       text-align: center;
      }
    
      .hero-logo {
@@ -6033,10 +5959,7 @@
      }
    
      .menu-selection {
-       display: -webkit-box;
-       display: -webkit-flex;
-       display: -ms-flexbox;
-       display: flex;
+       display: none;
        height: 100vh;
      }
    
@@ -6170,14 +6093,6 @@
        align-items: center;
      }
    
-     .webdesign-description {
-       margin-top: 0px;
-       margin-left: auto;
-       font-size: 17px;
-       line-height: 22px;
-       text-align: center;
-     }
-   
      .graphicdesign-item {
        width: 68vw;
      }
@@ -6194,6 +6109,10 @@
        margin-bottom: 20px;
        font-size: 17px;
        line-height: 20px;
+     }
+   
+     .about-me-description {
+       text-align: left;
      }
    
      .about-me-item {
@@ -6221,21 +6140,9 @@
        margin-top: 20px;
      }
    
-     .nametext {
-       font-size: 17px;
-     }
-   
-     .messagetext {
-       font-size: 17px;
-     }
-   
      .text-field {
        font-size: 17px;
        line-height: 21px;
-     }
-   
-     .emailtext {
-       font-size: 17px;
      }
    
      .email-field {
@@ -6274,12 +6181,9 @@
        height: 40px;
      }
    
-     .contact_number-text {
-       font-size: 17px;
-     }
-   
-     .contact_email-link {
-       font-size: 17px;
+     .footer {
+       height: 35px;
+       padding-top: 6px;
      }
    
      .button.white_bg {
@@ -6325,7 +6229,7 @@
        left: auto;
        top: auto;
        right: 1%;
-       bottom: 85px;
+       bottom: 71px;
        display: -webkit-box;
        display: -webkit-flex;
        display: -ms-flexbox;
@@ -6472,29 +6376,8 @@
        grid-template-columns: 1fr;
      }
    
-     .heading_home {
-       width: 100%;
-       font-size: 35px;
-       line-height: 41px;
-     }
-   
      .form {
        width: 87vw;
-     }
-   
-     .heading_price {
-       font-size: 35px;
-       line-height: 50px;
-     }
-   
-     .headling-h2_right-lined {
-       text-align: center;
-     }
-   
-     .about-me_heading {
-       font-size: 35px;
-       line-height: 42px;
-       text-align: left;
      }
    
      .menubar-mobile {
@@ -6559,13 +6442,6 @@
      .submit-button_send-mobile {
        width: 120px;
        font-size: 20px;
-     }
-   
-     .headingh6_white {
-       height: auto;
-       margin-bottom: 10px;
-       color: #eee;
-       line-height: 26px;
      }
    
      .container-mobile {
@@ -6652,6 +6528,31 @@
        left: -12px;
        bottom: -2px;
        width: 90vw;
+     }
+   
+     .service_description {
+       font-size: 17px;
+       line-height: 22px;
+     }
+   
+     .form_text {
+       font-size: 17px;
+     }
+   
+     .contact_link {
+       font-size: 19px;
+       line-height: 21px;
+     }
+   
+     .headingh7 {
+       height: 30px;
+       color: #eee;
+       font-size: 22px;
+       line-height: 28px;
+     }
+   
+     .heading {
+       text-align: left;
      }
    }
    
